@@ -1,0 +1,13 @@
+paths:
+  model_dir: "./models/custom_model"
+  model_filename: "best_model.pth"
+  config_filename: "config.json"
+  pdf_input: "./pdf"
+  image_input: "./images"
+  audio_output: "./audio_output"
+  video_output: "./video"
+
+settings:
+  use_gpu: true
+  chunk_length: 150
+  language: "fr"
