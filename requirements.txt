@@ -1,9 +1,7 @@
-tkinter
 pypdf
-TTS
 moviepy
 numpy
 ebooklib
 beautifulsoup4
-torch
 pyyaml
+torch

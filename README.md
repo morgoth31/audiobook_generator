@@ -10,8 +10,16 @@ A local, privacy-focused audiobook generator that converts PDFs and EPUBs into h
 
 ## Setup
 
-1.  **Install Dependencies**:
-    ```bash
+1.  **Install venv and dependancy**:
+    ```bash*
+    sudo apt install python3-tk
+    sudo apt install python3.11-venv
+    python3.11 -m venv .venv
+    source .venv/bin/activate
+    git clone https://github.com/coqui-ai/TTS
+    cd TTS
+    python3 -m pip install -e.
+    cd ..
     pip install -r requirements.txt
     ```
     *Note: You may need to handle system dependencies for `tts` and `ffmpeg` separately depending on your OS.*
